@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+    #ptfinal > h1 {
+        background-color: #5333dc;
+        padding: 20px 50px;
+        transform: translate(-50px);
+        border-radius: 20px;
+    }
+
+    #amostragem {
+        position: relative;
+    }
+    
+    #amostragem img#tablet {
+        position: absolute;
+        width: 250px;
+        margin-top: 140px;
+        margin-left: 45px;
+    }
+    
+    #amostragem img#cel {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin-top: 300px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #apresentacao {
+        background-image: url(../imagens/fundoPC.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    h1 {
+        color: var(--cor0);
+        margin-bottom: 0;
+        font-size: 80px;
+        font-weight: 400;
+    }
+    
+    p {
+        color: var(--cor0);
+        margin-bottom: 10px;
+        font-size: 50px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .icones {
+        width: 150px;
+    }
+    
+    #perfil {
+        background-color: black;
+        background-image: url("../imagens/DesignPerfil.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left top;
+        transform: translate(-350px);
+    }
+
+    #perfil > h1 {
+        width: 500px;
+        margin-bottom: 50px;
+        margin-left: 650px;
+        text-align: right;
+        font-size: 40px;
+    }
+    
+    #perfil > p {
+        width: 500px;
+        margin-left: 700px;
+        font-size: 20px;
+        text-align: end;
+    }
+
+    #projetos {
+        margin-top: 0;
+        height: 100vh;
+    }
+    
+    #ptfinal { 
+        height: 100%;
+        margin-top: 50px
+    }
+    
+    #ptfinal > h1 {
+        background-color: #5333dc;
+        padding: 20px 50px;
+        transform: translate(-250px);
+        border-radius: 20px;
+    }
+    
+    #ptfinal > p {
+        margin-top: 40px;
+        font-size: 25px;
+        transform: translate(-150px);
+    }
+    
+    #amostragem {
+        position: relative;
+    }
+    
+    #amostragem img#tablet {
+        position: absolute;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 500px;
+    }
+    
+    #amostragem img#cel {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        margin-top: 215px;
+        margin-left: 450px;
+    }
+}
